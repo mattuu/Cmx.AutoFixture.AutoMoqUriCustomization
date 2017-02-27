@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cmx.AutoFixture.AutoMoqUriCustomization.Console", "src\Cmx.AutoFixture.AutoMoqUriCustomization.Console\Cmx.AutoFixture.AutoMoqUriCustomization.Console.csproj", "{5B8E428D-DA7A-489C-B40A-8E9B064647ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementation", "Implementation", "{3507E069-4D89-4A77-9757-8BE5F1452773}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B7FDF393-AFA9-46D5-ADD7-82CEF3C22A4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cmx.AutoFixture.AutoMoqUriCustomization.Tests", "test\Cmx.AutoFixture.AutoMoqUriCustomization.Tests\Cmx.AutoFixture.AutoMoqUriCustomization.Tests.csproj", "{58A0F4C9-328C-4DB5-B063-785331B68D55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B8E428D-DA7A-489C-B40A-8E9B064647ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B8E428D-DA7A-489C-B40A-8E9B064647ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B8E428D-DA7A-489C-B40A-8E9B064647ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B8E428D-DA7A-489C-B40A-8E9B064647ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58A0F4C9-328C-4DB5-B063-785331B68D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58A0F4C9-328C-4DB5-B063-785331B68D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58A0F4C9-328C-4DB5-B063-785331B68D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58A0F4C9-328C-4DB5-B063-785331B68D55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B8E428D-DA7A-489C-B40A-8E9B064647ED} = {3507E069-4D89-4A77-9757-8BE5F1452773}
+		{58A0F4C9-328C-4DB5-B063-785331B68D55} = {B7FDF393-AFA9-46D5-ADD7-82CEF3C22A4A}
+	EndGlobalSection
+EndGlobal
