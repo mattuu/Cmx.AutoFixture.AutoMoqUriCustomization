@@ -6,7 +6,9 @@ namespace Cmx.AutoFixture.AutoMoqUriCustomization.Tests
     public class AutoMoqUriCustomization : CompositeCustomization
     {
         public AutoMoqUriCustomization()
-            : base(new AutoMoqCustomization(), new UriCustomization())
+            : base(new AutoConfiguredMoqCustomization(),
+                new UriCustomization(),
+                new CookieContainerCustomization())
         {
         }
     }

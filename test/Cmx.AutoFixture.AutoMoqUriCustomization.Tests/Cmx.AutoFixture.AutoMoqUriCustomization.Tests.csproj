@@ -108,6 +108,7 @@
     <Compile Include="AutoMoqDataAttribute.cs" />
     <Compile Include="AutoMoqUriCustomization.cs" />
     <Compile Include="AutoMoqUriDataAttribute.cs" />
+    <Compile Include="CookieContainerCustomization.cs" />
     <Compile Include="RestClientFactoryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServiceTests.cs" />
